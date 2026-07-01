@@ -1,10 +1,10 @@
 # Exclude generated Flutter folders from GitHub language statistics
-android/** linguist-vendored
-ios/** linguist-vendored
-linux/** linguist-vendored
-macos/** linguist-vendored
-windows/** linguist-vendored
-web/** linguist-vendored
-build/** linguist-vendored
-*.g.dart linguist-generated
-*.freezed.dart linguist-generated
+android/** linguist-generated=true
+ios/** linguist-generated=true
+linux/** linguist-generated=true
+macos/** linguist-generated=true
+windows/** linguist-generated=true
+web/** linguist-generated=true
+build/** linguist-generated=true
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
